@@ -1,0 +1,78 @@
+body{
+	background-color:#EEEEEE !important;
+	text-align:center;
+}
+#header-img{
+	width:100px;
+	height:100px;
+}
+#submit{
+	width:150px;
+	height:30px;
+	vertical-align: middle;
+	text-align:center;
+	background-color: #F1C40F;
+	text-transform: uppercase;
+	font-style: 'Lato';
+	font-size:18px;
+	font-weight:600;
+}
+#header{
+	
+	padding-right:5%;
+	padding-left:5%;
+	min-height:100px;
+	
+}
+#email{
+	width:300px;
+}
+#nav-bar li{
+	float:right;
+	padding-right:5%;
+	padding-top:20%;
+	list-style: none;
+	text-transform: uppercase;
+	font-size:18px;
+	font-weight: 200;
+	color:black !important;
+	vertical-align: middle;
+}
+#nav-bar li a{
+	float:right;
+	list-style: none;
+	text-transform: uppercase;
+	font-size:16px;
+	font-weight: 200;
+	color:black !important;
+}
+
+#header-img{float:left;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  #form-sec h2{
+	font-size:40px;
+}
+#nav-bar li a{
+	float:none;
+}
+#header{
+	float:none;
+}
+}
